@@ -1,0 +1,40 @@
+.form-card {
+    background-color: #ffffff;
+    border: 1px solid #dfe2e5;
+    border-radius: 12px;
+    padding: 28px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+    margin-top: 32px;
+}
+
+.form-card h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.04em;
+}
+
+.button-group {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.small-note {
+    font-size: 0.92rem;
+    color: #6c757d;
+}
+
+.form-row {
+    gap: 1.5rem;
+}
+
+.form-row .col-md-4 {
+    flex: 0 0 32%;
+    max-width: 32%;
+}
+
+.form-row .col-md-8 {
+    flex: 0 0 66%;
+    max-width: 66%;
+}
